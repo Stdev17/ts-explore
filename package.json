@@ -2,11 +2,11 @@
     "name": "ts-explore",
     "version": "1.0.0",
     "description": "",
-    "main": "src/stats/index.html",
+    "main": "src/web/index.html",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start:build": "tsc",
-        "start:run": "nodemon dist/stats/index.js",
+        "start:run": "nodemon dist/web/index.js",
         "start": "concurrently npm:start:*"
     },
     "author": "",
